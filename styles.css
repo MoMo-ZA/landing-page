@@ -12,7 +12,8 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    margin: 25px 220px -25px 220px;
 }
 
 .header-top-l {
@@ -29,8 +30,136 @@ body {
     display: inline;
     display: flex;
     gap: 20px;
+}
 
 .header-top-r li {
     display: inline;
 }
-   
+
+.header-bottom {
+    display: flex;
+    padding: 75px 220px;
+}
+
+.header-bottom-l {
+    flex: 1;
+}
+.header-bottom-l h1 {
+color: #F9FAF8;
+font-size: 48px;
+}
+
+.header-bottom-l p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.header-bottom-r {
+    flex: 1;
+}
+
+.section-1 {
+ display: flex;
+ flex-direction: column;
+ margin: 75px 0;
+}
+
+.section-1-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.section-1-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+.section-1-block {
+flex: 0 1;
+text-align: center;
+font-size: 18px;
+
+}
+
+.placeholder-section-1 {
+    border: 3px solid; 
+    border-radius: 15px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    padding: 100px 550px 100px 550px;
+    text-align: center;
+}
+
+.section-2-top {
+color: #1F2937;
+font-size: 36px;
+font-weight: lighter;
+font-style: italic;
+}
+
+.section-2-bottom {
+text-align: end;
+font-weight: bold;
+}
+
+.section-3 {
+padding: 75px 400px;
+}
+
+.cta {
+    padding: 50px 200px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-l {
+    
+}
+
+.cta-l h2, .cta-l p {
+    color: white;
+    margin: 0;
+}
+
+.signup-inverted {
+    background-color: #0000;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    font-weight: bold;    
+    
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    background-color: #1F2937;
+    color: white;
+}
